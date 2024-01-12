@@ -1,0 +1,1 @@
+print("---egzamin-informatyk.pl---")
