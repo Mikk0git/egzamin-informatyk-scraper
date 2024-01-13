@@ -140,7 +140,7 @@ def scrapeQuestion(page,examType,idType):
     session.add(question)
     
     answers = [
-        Answers(odpa, True, id),
+        Answers(odpa, False, id),
         Answers(odpb, False, id),
         Answers(odpc, False, id),
         Answers(odpd, False, id)
